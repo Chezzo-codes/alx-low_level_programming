@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* function_name - Short description, single line
+* main - Entry point for program
 *
-* Description: Longer description of the function)?
-* Return: Description of the returned value
+* Description: prints lowercase alphabet without e and q
+* Return: Success returns 0
 */
 
 int main(void)
