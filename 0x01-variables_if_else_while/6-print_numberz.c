@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Entry oint for program
+* main - Entry point for program
 *
-* Description: print nums 0 to 9
+* Description: prints numbers 1 to 9
 * Return: returns 0 on success
 */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf(i);
+		putchar('0' + i);
 	}
 	putchar('\n');
 	return (0);
