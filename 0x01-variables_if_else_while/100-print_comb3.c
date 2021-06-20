@@ -15,11 +15,11 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		a = i/10;
-		b = i%10;
+		a = i / 10;
+		b = i % 10;
 
 		putchar('0' + a);
-		putchar('0'+ b);
+		putchar('0' + b);
 		putchar(',');
 		putchar(' ');
 	}
