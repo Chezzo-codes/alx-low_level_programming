@@ -9,19 +9,20 @@
 
 int main(void)
 {
-	int i;
-	int a;
-	int b;
+	int i, j;
 
-	for (i = 0; i < 100; i++)
+	for (i = '0';i <= '9'; i++)
 	{
-		a = i / 10;
-		b = i % 10;
-
-		putchar('0' + a);
-		putchar('0' + b);
-		putchar(',');
-		putchar(' ');
+		for(j = i+1; j <= '9'; j++)
+		{
+			putchar(i);
+			putchar(j);
+			if (i != '8' || j != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
