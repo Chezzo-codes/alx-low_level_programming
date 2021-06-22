@@ -1,8 +1,8 @@
 /**
-* function_name - Short description, single line
-*
-* Description: Longer description of the function)?
-* Return: Description of the returned value
+* _abs - find absolute value
+* @n : number to test
+* Description: find absolute value of an int
+* Return: returns absolute value of n
 */
 
 int _abs(int n)
