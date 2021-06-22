@@ -4,7 +4,7 @@
 * @n : number to check
 *
 * Description: Print last digit of a number
-* Return: returns last digit 
+* Return: returns last digit
 */
 
 int print_last_digit(int n)
