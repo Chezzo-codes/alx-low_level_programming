@@ -2,7 +2,7 @@
 
 /**
 * print_alphabet - prints alphabet
-* 
+*
 * Description: prints lowercase alphabet
 * Return: void
 */
