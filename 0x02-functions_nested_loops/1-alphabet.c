@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
-* function_name - Short description, single line
-*
-* Description: Longer description of the function)?
-* Return: Description of the returned value
+* print_alphabet - prints alphabet
+* 
+* Description: prints lowercase alphabet
+* Return: void
 */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c;
 
@@ -16,5 +16,5 @@ int print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
+	return;
 }
