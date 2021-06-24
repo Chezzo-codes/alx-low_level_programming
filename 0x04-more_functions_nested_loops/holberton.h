@@ -7,6 +7,7 @@ int _isupper(int c);
 int _isdigit(int c);
 int print_sign(int n);
 int _abs(int);
+int mul(int a, int b);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
