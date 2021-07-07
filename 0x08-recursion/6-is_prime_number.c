@@ -1,5 +1,5 @@
 /**
- * check - checks to see if number is prime
+ * check2 - checks to see if number is prime
  * @a:int
  * @b:int
  * Return:int

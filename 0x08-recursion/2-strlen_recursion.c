@@ -1,5 +1,5 @@
 /**
- * _puts_recursion - Uses recursion to find length of string.
+ * _strlen_recursion - Uses recursion to find length of string.
  * @s: string to count
  *
  * Return: length of string (int)
