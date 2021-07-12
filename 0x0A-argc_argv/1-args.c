@@ -9,6 +9,16 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%d\n", argc);
-	return (0);
+	int i;
+
+	if (argc == 1)
+	{
+		i = 0;
+	}
+	else
+	{
+		i = argc - 1;
+	}
+	printf("%d\n", i);
+	return(0);
 }
