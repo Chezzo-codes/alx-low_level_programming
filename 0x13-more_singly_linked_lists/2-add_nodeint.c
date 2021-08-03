@@ -1,22 +1,23 @@
+#include <stdlib.h>
 #include "lists.h"
 
 /**
- * add_nodeint - add node list
- * @head:pointer to node
- * @n:int to refill
- * Return: new node
+ * add_nodeint - add nodes at the beggin of a list
+ * @head: double pointer
+ * @n: value
+ *
+ * Return: nodo adreess
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *new;
+	listint_t *tmp;
 
-	new = malloc(sizeof(listint_t));
-	if (new == NULL)
+	temp = malloc(sizeof(listint_t));
+	if (temp == NULL)
 		return (NULL);
+	temp->n = n;
+	temp->next = *head;
+	*head = temp;
 
-	new->next = *head;
-	new->n = n;
-	*head = new;
-	return (new);
-
+	return (temp);
 }
